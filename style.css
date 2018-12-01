@@ -41,8 +41,13 @@ a {
     width: 1024px;
     margin:0 auto;
 }
-.figure{
+#figure{
     position: relative;
+}
+#bio-name {
+    position: absolute;
+    top: 150px;
+    left: 30px;
 }
 #main-bio,#contact-info,#bio-image{
     float: left;
@@ -60,11 +65,5 @@ a {
     width: 30%;
     
 }
-   
-#bio-name{
-    position: absolute;
-    top: 240px;
-    left: 150px;
-    color:black;
-}   
+     
    
