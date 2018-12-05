@@ -1,0 +1,114 @@
+html{
+    position: relative;
+    min-height: 100%;
+    margin: 0px;
+}
+
+body {
+    
+    background-color:#e6e6e6; 
+    margin:0px;
+    padding:90px;
+  }
+
+.navbar{
+  
+    background-color: #b3e6ff;
+    border-bottom: 20px;  
+    border-bottom-color: #006699;
+    border-width: 5px;
+    border-bottom-style: solid;  
+    margin: -5px;
+    top: -5px;
+}
+
+.navbar .navbar-brand {
+    color: white;
+    background: #29a3a3;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    background: #29a3a3;
+    color: #c0392b;
+}
+
+.navbar .navbar-nav .nav-link {
+  color:#006699;
+  border-radius: .25rem;
+  margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+  color: #c0392b;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+  color: #ffbbbc;
+  background-color: #c0392b;
+}
+.navbar .navbar-toggle {
+  border-color: #c0392b;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+  background-color: #c0392b;
+}
+.navbar{
+    margin-top: 0!important;
+ }
+.panel{
+    background-color: white;
+   
+}   
+.panel-default > .panel-heading-custom {
+    background: white; 
+    color: #29a3a3;
+    font-weight: bold;
+}
+.panel-body{
+    color:#006699; 
+}
+
+h4{
+    color: #29a3a3;
+    font-weight: bold;
+    text-align: center;
+}
+img{
+    float: left;
+    width: 100%;
+   margin:5px;
+    
+}
+
+.highlight{
+    border-color: #29a3a3;
+    border-style: solid;
+    border-width: 5px;
+    background-color: #ffbbbc;
+}
+
+
+
+footer{
+    position: absolute;
+    visibility: visible;
+    padding: 10px;
+    left:0;
+    bottom: 0;
+    height:60px;
+    background-color:#b3e6ff;
+    color:#006699;
+    text-align: center;
+    width: 100%; 
+    border-top: 20px;  
+    border-top-color:#006699;
+    border-width: 5px;
+    border-top-style: solid;    
+}
+
+
